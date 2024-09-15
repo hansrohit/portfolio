@@ -12,7 +12,7 @@ const AboutContent = () => {
                 <h1>Who Am I?</h1><br></br>
                 <p>I'm Hans Rohit, a software developer specializing in creating front-end websites. I'm a passionate learner with skills in Java, C, HTML, CSS, React.js, MongoDB, MySQL, and Flutter & Dart. I'm eager to prove myself and showcase the work I've accomplished in these areas.
                 </p><br></br>
-                <Link to="/contact">
+                <Link to="/portfolio/contact">
                     <button className="btn">Contact</button>
                 </Link>
             </div>

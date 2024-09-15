@@ -16,27 +16,27 @@ const Navbar = () => {
 
     return (
         <div class={(color) ? ("header header-bg") : ("header")}>
-            <Link to="/">
+            <Link to="/portfolio">
                 <h1>portfolio</h1>
             </Link>
             <ul class={click ? ("nav-menu active") : ("nav-menu")}>
                 <li>
-                    <Link to="/">
+                    <Link to="/portfolio">
                         Home
                     </Link>
                 </li>
                 <li>
-                    <Link to="/project">
+                    <Link to="/portfolio/project">
                         Project
                     </Link>
                 </li>
                 <li>
-                    <Link to="/about">
+                    <Link to="/portfolio/about">
                         About
                     </Link>
                 </li>
                 <li>
-                    <Link to="/contact">
+                    <Link to="/portfolio/contact">
                         Contact
                     </Link>
                 </li>

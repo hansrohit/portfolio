@@ -14,8 +14,8 @@ const Heroimg = () => {
                 <p>HI, I'M HANS ROHIT. </p>
                 <h1>Software Developer</h1>
                 <div>
-                    <Link to="/project" class="btn">projects</Link>
-                    <Link to="/contact" class="btn btn-light">contact</Link>
+                    <Link to="/portfolio/project" class="btn">projects</Link>
+                    <Link to="/portfolio/contact" class="btn btn-light">contact</Link>
                 </div>
             </div>
         </div>
